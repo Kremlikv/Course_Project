@@ -100,6 +100,8 @@ while True:
         while len(xyz) == 0:
             new__email = str(input("Email is mandatory: " ))
                 
+        # When entering a phone number, only numbers are allowed.
+        # we want the phone numbers with internatinol prefixes.
         new_phone = input("Phone: ")
         phonestr = str(new_phone)
        
